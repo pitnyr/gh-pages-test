@@ -21,7 +21,7 @@ Diese Website dient als Test für:
 
 ## Letzte Änderung
 
-- Zurück zu `github-pages` Gem
+- Flexible Source Commit Hashes
 
 ## Nächste Schritte
 
