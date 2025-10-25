@@ -1,0 +1,9 @@
+title: Meine Jekyll Test Site
+description: Eine Test-Website mit Jekyll und dem Just the Docs Theme
+
+baseurl: /gh-pages-test
+
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: just-the-docs/just-the-docs
