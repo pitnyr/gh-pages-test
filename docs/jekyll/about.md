@@ -21,7 +21,7 @@ Diese Website dient als Test für:
 
 ## Letzte Änderung
 
-- Flexible Source Commit Hashes
+- Include für source commit links
 
 ## Nächste Schritte
 

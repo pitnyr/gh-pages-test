@@ -42,7 +42,7 @@ try {
 }
 ```
 
-[commit-2021-11-15-05-35](https://github.com/{{ site.github_user }}/{{ site.github_repo }}/commit/{{ site.data.commits['commit-2021-11-15-05-35'] }})
+{% include commit id="2021-11-15-05-35" %}
 ```email
 commit: Refactor to multiple async functions
 
@@ -60,7 +60,7 @@ I'll also add a second seetting for the path to the local making-of root.
 
 With both it should be possible to build the links to the published making-of files.
 
-[commit-2021-11-15-08-15](https://github.com/{{ site.github_user }}/{{ site.github_repo }}/commit/{{ site.data.commits['commit-2021-11-15-08-15'] }})
+{% include commit id="2021-11-15-08-15" %}
 ```email
 commit: Add local and published path settings
 
@@ -71,7 +71,7 @@ This allows to build the links to the published making-of files.
 
 With all the mentioned checks in place, I finally can get the complete commit message!
 
-[commit-2021-11-15-08-50](https://github.com/{{ site.github_user }}/{{ site.github_repo }}/commit/{{ site.data.commits['commit-2021-11-15-08-50'] }})
+{% include commit id="2021-11-15-08-50" %}
 ```email
 commit: Get complete commit message
 ```
@@ -83,7 +83,7 @@ commit: Get complete commit message
 Now to the real part: perform the commit.
 Should be easy to implement, interesting to test...
 
-[commit-2021-11-15-09-00](https://github.com/{{ site.github_user }}/{{ site.github_repo }}/commit/{{ site.data.commits['commit-2021-11-15-09-00'] }})
+{% include commit id="2021-11-15-09-00" %}
 ```email
 commit: Execute commit
 ```
@@ -98,7 +98,7 @@ The desired final text can be seen above.
 As it turns out, I need the URL of the source repository.
 I'll use a third setting for that.
 
-[commit-2021-11-15-09-45](https://github.com/{{ site.github_user }}/{{ site.github_repo }}/commit/{{ site.data.commits['commit-2021-11-15-09-45'] }})
+{% include commit id="2021-11-15-09-45" %}
 ```email
 commit: Add setting for source URL
 ```
@@ -107,7 +107,7 @@ commit: Add setting for source URL
 
 Now I can build the final text.
 
-[commit-2021-11-15-09-50](https://github.com/{{ site.github_user }}/{{ site.github_repo }}/commit/{{ site.data.commits['commit-2021-11-15-09-50'] }})
+{% include commit id="2021-11-15-09-50" %}
 ```email
 commit: Build final text for the making-of file
 ```
@@ -117,7 +117,7 @@ commit: Build final text for the making-of file
 Hmm, if the final text shall be the same as the commit message,
 then the text in the commit message has to be trimmed, too.
 
-[commit-2021-11-15-10-45](https://github.com/{{ site.github_user }}/{{ site.github_repo }}/commit/{{ site.data.commits['commit-2021-11-15-10-45'] }})
+{% include commit id="2021-11-15-10-45" %}
 ```email
 commit: Trim text in making-of file, Refactoring
 ```

@@ -39,7 +39,7 @@ and then add more and more functionality from the "Edit With Shell Command" exte
 
 ## Step 1 - First Commit
 
-[commit-2021-11-01-19-45](https://github.com/{{ site.github_user }}/{{ site.github_repo }}/commit/{{ site.data.commits['commit-2021-11-01-19-45'] }})
+{% include commit id="2021-11-01-19-45" %}
 ```email
 commit: Add first commit: MIT license file
 ```
@@ -51,7 +51,7 @@ commit: Add first commit: MIT license file
 
 For setting up the getting started example I create a feature branch named "[start](start.md)".
 
-[commit-2021-11-01-21-00](https://github.com/{{ site.github_user }}/{{ site.github_repo }}/commit/{{ site.data.commits['commit-2021-11-01-21-00'] }})
+{% include commit id="2021-11-01-21-00" %}
 ```email
 commit: Merge branch 'start'
 
@@ -68,7 +68,7 @@ In feature branch "[shell](shell.md)" I'll copy the basics I need from the "Edit
 But before that, I move the gh-pages workspace into a ".gitignored" subfolder of the project root
 and add a VS Code workspace with the gh-pages folder and the root folder:
 
-[commit-2021-11-14-07-40](https://github.com/{{ site.github_user }}/{{ site.github_repo }}/commit/{{ site.data.commits['commit-2021-11-14-07-40'] }})
+{% include commit id="2021-11-14-07-40" %}
 ```email
 commit: Change editing environment
 ```
@@ -77,7 +77,7 @@ commit: Change editing environment
 
 Implemented:
 
-[commit-2021-11-14-15-25](https://github.com/{{ site.github_user }}/{{ site.github_repo }}/commit/{{ site.data.commits['commit-2021-11-14-15-25'] }})
+{% include commit id="2021-11-14-15-25" %}
 ```email
 commit: Merge branch 'shell'
 
@@ -91,7 +91,7 @@ Edit With Shell Command.
 
 This is handled in feature branch "[real-command](real-command.md)".
 
-[commit-2021-11-15-10-50](https://github.com/{{ site.github_user }}/{{ site.github_repo }}/commit/{{ site.data.commits['commit-2021-11-15-10-50'] }})
+{% include commit id="2021-11-15-10-50" %}
 ```email
 commit: Merge branch 'real-command'
 
@@ -105,7 +105,7 @@ The extension should be usable now!
 
 ## Final touches
 
-[commit-2021-11-18-12-28](https://github.com/{{ site.github_user }}/{{ site.github_repo }}/commit/{{ site.data.commits['commit-2021-11-18-12-28'] }})
+{% include commit id="2021-11-18-12-28" %}
 ```email
 commit: Final touches
 
